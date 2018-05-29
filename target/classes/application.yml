@@ -1,0 +1,49 @@
+spring:
+#redis 配置
+  redis:
+    host: apitest.ddbes.com
+    port: 6379
+    password: HiteaM666
+    pool:
+      # 连接池最大连接数（使用负值表示没有限制）
+      max-active: 100
+      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+      max-wait: 1000
+      # 连接池中的最大空闲连接
+      max-idle: 8
+      # 连接池中的最小空闲连接
+      min-idle: 3
+# JDBC配置
+  datasource:
+    druid:
+      url: jdbc:mysql://123.58.244.10:13306/hiteamddbes
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: j0!uN@Da12tA&*ba3S&e
+# Druid 连接池配置
+      initial-size: 5
+      max-active: 30
+      min-idle: 5
+      max-wait: 60000
+      pool-prepared-statements: false
+      max-pool-prepared-statement-per-connection-size: -1
+      validation-query: select 'x'
+      validation-query-timeout: 5
+      test-on-borrow: true
+      test-on-return: false
+      test-while-idle: true
+####################Swagger 2.x 接口文档生成配置################
+swagger:
+  enabled: true
+  title: DDBES Search- 担当搜索系统 API Doc
+  description: 接口文档实时更新，任何问题随时微信群反馈。
+  version: 1.4.0.RELEASE
+  license: Apache License, Version 2.0
+  licenseUrl: https://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfServiceUrl: http://www.ddbes.com
+  contact.name: 加优科技研发部
+  contact.url: http://www.joinu.io
+  contact.email: kecz@ddbes.com
+  base-package:  com.h2h.springboot_elasticsearch
+  base-path: /**
+  exclude-path: /error, /ops/**

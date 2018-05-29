@@ -1,0 +1,358 @@
+2018-05-17 at 14:07:34 CST INFO  org.elasticsearch.plugins.PluginsService 175 logPluginInfo - no modules loaded
+2018-05-17 at 14:07:34 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2018-05-17 at 14:07:34 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2018-05-17 at 14:07:34 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2018-05-17 at 14:07:34 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2018-05-17 at 14:07:34 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.transport.Netty3Plugin]
+2018-05-17 at 14:07:34 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [force_merge], size [1], queue size [unbounded]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [fetch_shard_started], core [1], max [8], keep alive [5m]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [listener], size [2], queue size [unbounded]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [index], size [4], queue size [200]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [refresh], core [1], max [2], keep alive [5m]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [generic], core [4], max [128], keep alive [30s]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [warmer], core [1], max [2], keep alive [5m]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [search], size [7], queue size [1k]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [flush], core [1], max [2], keep alive [5m]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [fetch_shard_store], core [1], max [8], keep alive [5m]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [management], core [1], max [5], keep alive [5m]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [get], size [4], queue size [1k]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [bulk], size [4], queue size [200]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [snapshot], core [1], max [2], keep alive [5m]
+2018-05-17 at 14:07:35 CST DEBUG org.elasticsearch.common.network.IfConfig 107 doLogging - configuration:
+
+lo
+        Software Loopback Interface 1
+        inet 127.0.0.1 netmask:255.0.0.0 broadcast:127.255.255.255 scope:host
+        inet6 ::1 prefixlen:128 scope:host
+        UP MULTICAST LOOPBACK mtu:-1 index:1
+
+net0
+        WAN Miniport (SSTP)
+        MULTICAST mtu:-1 index:2
+
+ppp0
+        WAN Miniport (PPPOE)
+        MULTICAST mtu:-1 index:3
+
+net1
+        WAN Miniport (L2TP)
+        MULTICAST mtu:-1 index:4
+
+eth0
+        Qualcomm Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.30)
+        inet6 fe80::1dec:3f45:cabd:136 prefixlen:64 scope:link
+        hardware 10:BF:48:65:4B:4D
+        MULTICAST mtu:1500 index:5
+
+eth1
+        Microsoft Kernel Debug Network Adapter
+        MULTICAST mtu:-1 index:6
+
+eth2
+        WAN Miniport (IP)
+        MULTICAST mtu:-1 index:7
+
+wlan0
+        Intel(R) Centrino(R) Wireless-N 100
+        inet 172.20.10.4 netmask:255.255.255.240 broadcast:172.20.10.15 scope:site
+        inet6 fe80::6991:cdbd:2398:8810 prefixlen:64 scope:link
+        hardware 78:92:9C:93:6E:A4
+        UP MULTICAST mtu:1500 index:8
+
+net2
+        Teredo Tunneling Pseudo-Interface
+        inet6 2001:0:9d38:953c:2417:2fb3:53eb:f5fb prefixlen:0
+        inet6 fe80::2417:2fb3:53eb:f5fb prefixlen:32 scope:link
+        hardware 00:00:00:00:00:00:00:E0
+        UP POINTOPOINT mtu:1280 index:9
+
+eth3
+        WAN Miniport (IPv6)
+        MULTICAST mtu:-1 index:10
+
+eth4
+        WAN Miniport (Network Monitor)
+        MULTICAST mtu:-1 index:11
+
+eth5
+        VMware Virtual Ethernet Adapter for VMnet1
+        inet 192.168.63.1 netmask:255.255.255.0 broadcast:192.168.63.255 scope:site
+        inet6 fe80::e987:4b:83e:15d0 prefixlen:64 scope:link
+        hardware 00:50:56:C0:00:01
+        UP MULTICAST mtu:1500 index:12
+
+net3
+        WAN Miniport (IKEv2)
+        MULTICAST mtu:-1 index:13
+
+eth6
+        VMware Virtual Ethernet Adapter for VMnet8
+        inet 192.168.218.1 netmask:255.255.255.0 broadcast:192.168.218.255 scope:site
+        inet6 fe80::6c77:bf9d:466e:73eb prefixlen:64 scope:link
+        hardware 00:50:56:C0:00:08
+        UP MULTICAST mtu:1500 index:14
+
+net4
+        WAN Miniport (PPTP)
+        MULTICAST mtu:-1 index:15
+
+eth7
+        Qualcomm Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.30)-WFP Native MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:16
+
+eth8
+        Qualcomm Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.30)-QoS Packet Scheduler-0000
+        MULTICAST mtu:-1 index:17
+
+eth9
+        Qualcomm Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.30)-WFP 802.3 MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:18
+
+wlan1
+        Intel(R) Centrino(R) Wireless-N 100-WFP Native MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:19
+
+wlan2
+        Intel(R) Centrino(R) Wireless-N 100-Virtual WiFi Filter Driver-0000
+        MULTICAST mtu:-1 index:20
+
+wlan3
+        Intel(R) Centrino(R) Wireless-N 100-Native WiFi Filter Driver-0000
+        MULTICAST mtu:-1 index:21
+
+wlan4
+        Intel(R) Centrino(R) Wireless-N 100-QoS Packet Scheduler-0000
+        MULTICAST mtu:-1 index:22
+
+wlan5
+        Intel(R) Centrino(R) Wireless-N 100-WFP 802.3 MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:23
+
+eth10
+        WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:24
+
+eth11
+        WAN Miniport (IP)-QoS Packet Scheduler-0000
+        MULTICAST mtu:-1 index:25
+
+eth12
+        WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:26
+
+eth13
+        WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+        MULTICAST mtu:-1 index:27
+
+eth14
+        WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:28
+
+eth15
+        WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+        MULTICAST mtu:-1 index:29
+
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.client.transport.TransportClientNodesService 136 <init> - node_sampler_interval[5s]
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.eventLoopThreads: 8
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.noUnsafe: true
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 74 debug - sun.misc.Unsafe: unavailable (io.netty.noUnsafe)
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 74 debug - Platform: Windows
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - Java version: 8
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.tmpdir: C:\Users\xiaobo\AppData\Local\Temp (java.io.tmpdir)
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.noPreferDirect: true
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.maxDirectMemory: -1 bytes
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.noKeySetOptimization: true
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 74 debug - org.jctools-core.MpscChunkedArrayQueue: unavailable
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.client.transport.TransportClientNodesService 194 addTransportAddresses - adding address [{#transport#-1}{LVPDx2juRMeiwb-gP0c_Aw}{192.168.218.128}{192.168.218.128:9300}]
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.processId: 6596 (auto-detected)
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Djava.net.preferIPv4Stack: false
+2018-05-17 at 14:07:36 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Djava.net.preferIPv6Addresses: false
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 89 debug - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 84 debug - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 84 debug - -Dio.netty.leakDetection.level: simple
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 84 debug - -Dio.netty.leakDetection.maxRecords: 4
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.numHeapArenas: 8
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.numDirectArenas: 8
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.pageSize: 8192
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.maxOrder: 11
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.chunkSize: 16777216
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.tinyCacheSize: 512
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.smallCacheSize: 256
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.normalCacheSize: 64
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.useCacheForAllThreads: true
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.allocator.type: pooled
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 84 debug - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 79 debug - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@29170a47
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 74 debug - -Dio.netty.recycler.maxCapacityPerThread: disabled
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 74 debug - -Dio.netty.recycler.maxSharedCapacityFactor: disabled
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 74 debug - -Dio.netty.recycler.linkCapacity: disabled
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.netty4.Netty4InternalESLogger 74 debug - -Dio.netty.recycler.ratio: disabled
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.transport.TcpTransport 477 connectToNode - connected to node [{master}{xN0oa2yDTYmlXXBh_al2fA}{-CbBv3BuScad_rkgQlhn4Q}{192.168.218.128}{192.168.218.128:9300}]
+2018-05-17 at 14:07:37 CST INFO  org.elasticsearch.plugins.PluginsService 175 logPluginInfo - no modules loaded
+2018-05-17 at 14:07:37 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2018-05-17 at 14:07:37 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2018-05-17 at 14:07:37 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2018-05-17 at 14:07:37 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2018-05-17 at 14:07:37 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.transport.Netty3Plugin]
+2018-05-17 at 14:07:37 CST INFO  org.elasticsearch.plugins.PluginsService 178 logPluginInfo - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [force_merge], size [1], queue size [unbounded]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [fetch_shard_started], core [1], max [8], keep alive [5m]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [listener], size [2], queue size [unbounded]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [index], size [4], queue size [200]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [refresh], core [1], max [2], keep alive [5m]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [generic], core [4], max [128], keep alive [30s]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [warmer], core [1], max [2], keep alive [5m]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [search], size [7], queue size [1k]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [flush], core [1], max [2], keep alive [5m]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [fetch_shard_store], core [1], max [8], keep alive [5m]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [management], core [1], max [5], keep alive [5m]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [get], size [4], queue size [1k]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [bulk], size [4], queue size [200]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.threadpool.ThreadPool 203 <init> - created thread pool: name [snapshot], core [1], max [2], keep alive [5m]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.common.network.IfConfig 107 doLogging - configuration:
+
+lo
+        Software Loopback Interface 1
+        inet 127.0.0.1 netmask:255.0.0.0 broadcast:127.255.255.255 scope:host
+        inet6 ::1 prefixlen:128 scope:host
+        UP MULTICAST LOOPBACK mtu:-1 index:1
+
+net0
+        WAN Miniport (SSTP)
+        MULTICAST mtu:-1 index:2
+
+ppp0
+        WAN Miniport (PPPOE)
+        MULTICAST mtu:-1 index:3
+
+net1
+        WAN Miniport (L2TP)
+        MULTICAST mtu:-1 index:4
+
+eth0
+        Qualcomm Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.30)
+        inet6 fe80::1dec:3f45:cabd:136 prefixlen:64 scope:link
+        hardware 10:BF:48:65:4B:4D
+        MULTICAST mtu:1500 index:5
+
+eth1
+        Microsoft Kernel Debug Network Adapter
+        MULTICAST mtu:-1 index:6
+
+eth2
+        WAN Miniport (IP)
+        MULTICAST mtu:-1 index:7
+
+wlan0
+        Intel(R) Centrino(R) Wireless-N 100
+        inet 172.20.10.4 netmask:255.255.255.240 broadcast:172.20.10.15 scope:site
+        inet6 fe80::6991:cdbd:2398:8810 prefixlen:64 scope:link
+        hardware 78:92:9C:93:6E:A4
+        UP MULTICAST mtu:1500 index:8
+
+net2
+        Teredo Tunneling Pseudo-Interface
+        inet6 2001:0:9d38:953c:2417:2fb3:53eb:f5fb prefixlen:0
+        inet6 fe80::2417:2fb3:53eb:f5fb prefixlen:32 scope:link
+        hardware 00:00:00:00:00:00:00:E0
+        UP POINTOPOINT mtu:1280 index:9
+
+eth3
+        WAN Miniport (IPv6)
+        MULTICAST mtu:-1 index:10
+
+eth4
+        WAN Miniport (Network Monitor)
+        MULTICAST mtu:-1 index:11
+
+eth5
+        VMware Virtual Ethernet Adapter for VMnet1
+        inet 192.168.63.1 netmask:255.255.255.0 broadcast:192.168.63.255 scope:site
+        inet6 fe80::e987:4b:83e:15d0 prefixlen:64 scope:link
+        hardware 00:50:56:C0:00:01
+        UP MULTICAST mtu:1500 index:12
+
+net3
+        WAN Miniport (IKEv2)
+        MULTICAST mtu:-1 index:13
+
+eth6
+        VMware Virtual Ethernet Adapter for VMnet8
+        inet 192.168.218.1 netmask:255.255.255.0 broadcast:192.168.218.255 scope:site
+        inet6 fe80::6c77:bf9d:466e:73eb prefixlen:64 scope:link
+        hardware 00:50:56:C0:00:08
+        UP MULTICAST mtu:1500 index:14
+
+net4
+        WAN Miniport (PPTP)
+        MULTICAST mtu:-1 index:15
+
+eth7
+        Qualcomm Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.30)-WFP Native MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:16
+
+eth8
+        Qualcomm Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.30)-QoS Packet Scheduler-0000
+        MULTICAST mtu:-1 index:17
+
+eth9
+        Qualcomm Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.30)-WFP 802.3 MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:18
+
+wlan1
+        Intel(R) Centrino(R) Wireless-N 100-WFP Native MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:19
+
+wlan2
+        Intel(R) Centrino(R) Wireless-N 100-Virtual WiFi Filter Driver-0000
+        MULTICAST mtu:-1 index:20
+
+wlan3
+        Intel(R) Centrino(R) Wireless-N 100-Native WiFi Filter Driver-0000
+        MULTICAST mtu:-1 index:21
+
+wlan4
+        Intel(R) Centrino(R) Wireless-N 100-QoS Packet Scheduler-0000
+        MULTICAST mtu:-1 index:22
+
+wlan5
+        Intel(R) Centrino(R) Wireless-N 100-WFP 802.3 MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:23
+
+eth10
+        WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:24
+
+eth11
+        WAN Miniport (IP)-QoS Packet Scheduler-0000
+        MULTICAST mtu:-1 index:25
+
+eth12
+        WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:26
+
+eth13
+        WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+        MULTICAST mtu:-1 index:27
+
+eth14
+        WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+        MULTICAST mtu:-1 index:28
+
+eth15
+        WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+        MULTICAST mtu:-1 index:29
+
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.client.transport.TransportClientNodesService 136 <init> - node_sampler_interval[5s]
+2018-05-17 at 14:07:37 CST DEBUG org.elasticsearch.client.transport.TransportClientNodesService 194 addTransportAddresses - adding address [{#transport#-1}{0MuMhCPGQFygAGCVCbaWew}{192.168.218.128}{192.168.218.128:9300}]
+2018-05-17 at 14:07:38 CST DEBUG org.elasticsearch.transport.TcpTransport 477 connectToNode - connected to node [{master}{xN0oa2yDTYmlXXBh_al2fA}{-CbBv3BuScad_rkgQlhn4Q}{192.168.218.128}{192.168.218.128:9300}]

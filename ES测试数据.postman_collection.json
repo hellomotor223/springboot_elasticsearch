@@ -1,0 +1,254 @@
+{
+	"id": "c35d1562-0f94-44a6-92bf-7387229a05b6",
+	"name": "ES测试数据",
+	"description": null,
+	"auth": null,
+	"events": null,
+	"variables": null,
+	"order": [
+		"3ec7f3e0-db6f-4c90-bf34-39647667e2aa",
+		"2c78ccb6-2193-4cdd-b39a-b37dd9261036",
+		"ad94f78b-bd81-42ca-a39b-71bb9f6a5456",
+		"a2166ced-f4ac-465d-becd-028d1c634ef4",
+		"298606fb-7600-4954-ab3b-f82f7cc19d09",
+		"69dfad7a-0ab5-4de3-bb7d-5fe5e86aa707",
+		"094e5a03-571d-4987-a745-b8f7d727c319",
+		"a8ad2998-5ccf-4d32-b1c8-d4fe227a2122",
+		"09c5a268-6473-4750-8db2-486c190ab600",
+		"fa3ee6c3-abbe-4684-9674-1389479445e7"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "094e5a03-571d-4987-a745-b8f7d727c319",
+			"name": "ES测试数据4",
+			"url": "192.168.218.128:9200/book/novel/4",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"author\":\"赵莉,孙喁喁,徐飞\",\n\t\"title\":\"Java组件技术\",\n\t\"word_count\":225000,\n\t\"publish_date\":\"2015-05-01\",\n\t\"desc\":\"赵莉、孙喁喁、徐飞主编的《Java组件技术》全面系统地介绍了基于 Java的组件设计及发方法，详细介绍了组件的相关概念及设计原则、 Java反射及动态代理、企业级JavaBean、会话Bean、实体Bean、 WebService框架及发方法、Java消息服务、CORBA组件、事务、安全管理、配置组件、Socket通信组件、实体Bean发实例等内容。各章均提供了丰富的实例，便于读者巩固知识，掌握组件设计的基本方法和技巧。本书力求概念叙述准确、严谨，描述简练，语言通俗易懂，使读者易于理解和掌握。 《Java组件技术》适合作为高等院校计算机及相关专业组件技术课程的教材和工程技术人员学习组件的参考书，也适合于编程发人员培训、广大计算机技术爱好者自学使用。\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "09c5a268-6473-4750-8db2-486c190ab600",
+			"name": "ES测试数据2",
+			"url": "192.168.218.128:9200/book/novel/2",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"author\":\"八月长安\",\n\t\"title\":\"最好的我们\",\n\t\"word_count\":250000,\n\t\"publish_date\":\"2013-08-01\",\n\t\"desc\":\"你总是说青春从不曾永远，而那时候的我们，就是最好的我们。 　　这一次，让我们和耿耿、余淮、余周周、林杨、洛枳、盛淮南一起和整个青春做告别。 　　八月长安全新力作。 　　你还记得高中时的同桌吗？那个少年有世界上最明朗的笑容，那个女生有世界上最好看的侧影。高中三年，两个人的影子和粉笔灰交织在一起，黑白分明，在记忆里面转圈。本书以怀旧的笔触讲述了女主角耿耿和男主角余淮同桌三年的故事，耿耿余淮，这么多年一路走过的成长故事极为打动人心，整个故事里有的都是在成长过程中细碎的点点滴滴，将怀旧写到了极致，将记忆也写到了极致。你总是说青春从不曾永远，而那时候的我们，就是*好的我们。这一次，让我们和耿耿、余淮、余周周、林杨、洛枳、盛淮南一起和整个青春做告别。八月长安全新力作。你还记得高中时的同桌吗？那个少年有世界上*明朗的笑容，那个女生有世界上*好看的侧影。高中三年，两个人的影子和粉笔灰交织在一起，黑白分明，在记忆里面转圈。本书以怀旧的笔触讲述了女主角耿耿和男主角余淮同桌三年的故事，耿耿余淮，这么多年一路走过的成长故事极为动人心，整个故事里有的都是在成长过程中细碎的滴滴，将怀旧写到了极致，将记忆也写到了极致。\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "298606fb-7600-4954-ab3b-f82f7cc19d09",
+			"name": "ES测试数据6",
+			"url": "192.168.218.128:9200/book/novel/6",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"author\":\"Katie Cunningham\",\n\t\"title\":\"Python入门经典\",\n\t\"word_count\":133000,\n\t\"publish_date\":\"2014-10-01\",\n\t\"desc\":\"Python是一种解释型、面向对象、动态数据类型的高级程序设计语言。Python可以用于很多的领域，从科学计算到游戏发。 　　《Python门经典》是面向Python初学者的学习指南，详细介绍了Python编程基础，以及一些高级概念，如面向对象编程。全书分为24章。第1章介绍了Python的背景和安装方法。第2章到第7章介绍了一些基本的编程概念，如变量、数学运算、字符串和获取输。第8章到第12章介绍了更高级的主题，讨论了函数、字典和面向对象编程等。第13章到第15章介绍了如何使用库和模块，以及如何创建自己的模块。第16章到第19章介绍了使用数据，如保存到文件，使用标准格式以及使用数据库。第20章和第21章尝试了标准库以外的一些项目，在这两章中，介绍了创建动态Web站和发游戏。这两章并不是要成为完整的课程，而是充当学习更多知识的一个起。第22章和第23章介绍了如何正确地保存代码，以及出错的时候如何找到解决方案。第24章介绍了读者可能会触到哪些项目，哪些资源可以帮助读者学习更多知识，以及如何更深地融Python社区。 　　《Python门经典》内容循序渐，逐步深，概念和知识讲解清楚，而且每章最后配有练习，供读者检查和巩固所学知识。《Python门经典》适合学习Python语言和应用的初中级用户阅读和自学，也可以作为相关培训的教材。 　　Python是一种解释型、面向对象、动态数据类型的高级程序设计语言。Python可以用于很多的领域，从科学计算到游戏发。\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "2c78ccb6-2193-4cdd-b39a-b37dd9261036",
+			"name": "ES测试数据9",
+			"url": "192.168.218.128:9200/book/novel/9",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"author\":\"拉斐尔·酷奇（Rafal Kuć）\",\n\t\"title\":\"深入理解Elasticsearch(原书第2版)\",\n\t\"word_count\":191000,\n\t\"publish_date\":\"2017-05-01\",\n\t\"desc\":\"本书涵盖了Elasticsearch的许多中高级功能，并介绍了缓存、ApacheLucene库以及监控等模块的内部运作机制。其中，还涉及一些实用案例，比如配置Elasticsearch参数、使用监控API等。 本书涵盖了Elasticsearch的许多中高级功能，并介绍了缓存、ApacheLucene库以及监控等模块的内部运作机制。其中，还涉及一些实用案例，比如配置Elasticsearch参数、使用监控API等。\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "3ec7f3e0-db6f-4c90-bf34-39647667e2aa",
+			"name": "ES测试数据10",
+			"url": "192.168.218.128:9200/book/novel/10",
+			"description": "ES测试数据10",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"author\":\"吴亮等\",\n\t\"title\":\"程序员成长的烦恼\",\n\t\"word_count\":158000,\n\t\"publish_date\":\"2011-04-01\",\n\t\"desc\":\"对习惯于编写代码的我们来说，写一部人文类图书，是一个不小的挑战。生活虽很平淡，人生也谈不上成功，但回望一下毕业这么些年的足迹，其间的困惑和迷茫、欢笑与泪水，对于那些有志于在程序员道路上有所作为的大学生，和入行不久正经历如我当年一般困惑的职场同仁，还是有一定益处的。还在IT业的门外游离徘徊？还在编程的道路上摸爬滚？在追寻梦想的道路上你并不孤单，书中的四位草根程序员和你拥有着相同的过往：小在486电脑上自学编程，从钻研技术转向兼顾管理的吴亮；毕业后当上油田焊技术员，心里却始终放不下编程，刻苦自学的周金桥；做过钳工，当过外贸跟单员，为了梦想“半路出家”的程序员李春雷；工作中屡屡受挫、频繁跳槽，身为考证专业户却“考”不到结婚证的周礼。本书记录了他们的一步一步成为IT精英的成长之痛，分享了他们学习工作中的经验教训，为同在成长之路上的你照亮一盏明灯。\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "69dfad7a-0ab5-4de3-bb7d-5fe5e86aa707",
+			"name": "ES测试数据5",
+			"url": "192.168.218.128:9200/book/novel/5",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"author\":\"明日科技\",\n\t\"title\":\"Java从入门到精通（第3版）\",\n\t\"word_count\":273000,\n\t\"publish_date\":\"2012-09-01\",\n\t\"desc\":\"《Java从门到精通（第3版）》从初学者角度出发，通过通俗易懂的语言、丰富多彩的实例，详细介绍了使用Java语言行程序发需要掌握的知识。全书分为28章，包括初识Java，熟悉Eclipse发工具，Java语言基础，流程控制，字符串，数组，类和对象，包装类，数字处理类，口、继承与多态，类的高级特性，异常处理，Swing程序设计，集合类，I/O（输/输出），反射，枚举类型与泛型，多线程，网络通信，数据库操作，Swing表格组件，Swing树组件，Swing其他高级组件，高级布局管理器，高级事件处理，AWT绘图与音频播放，印技术和企业销存管理系统等。书中所有知识都结合具体实例行介绍，涉及的程序代码给出了详细的注释，可以使读者轻松领会Java程序发的精髓，快速提高发技能。。\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "a2166ced-f4ac-465d-becd-028d1c634ef4",
+			"name": "ES测试数据7",
+			"url": "192.168.218.128:9200/book/novel/7",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"author\":\"高凯,高莘,岳重阳\",\n\t\"title\":\"大数据搜索与挖掘及可视化管理方案——Elastic Stack 5：Elasticsearch、Logstash、Kibana、X-Pack、Beats（第3版）\",\n\t\"word_count\":286000,\n\t\"publish_date\":\"2017-09-01\",\n\t\"desc\":\"对大数据的搜索、挖掘、可视化以及集群管理，在当今的“互联网 ”时代是很有必要的。本书的分布式大数据搜索、日志挖掘、可视化、集群监控与管理等方案是基于Elastic Stack 5而提出的，它能有效应对海量大数据所带来的分布式数据存储与处理、全文检索、日志挖掘、可视化、集群管理与性能监控等问题。构建在全文检索源软件Lucene之上的Elasticsearch，不仅能对海量规模的数据完成分布式索引与检索，还能提供数据聚合分析；Logstash能有效处理来源于各种数据源的日志信息；Kibana是为Elasticsearch提供数据分析的Web口，可使用它对数据行高效的搜索、可视化、分析等操作；XPack监控组件可通过Kibana监控集群的状态；Beats是采集系统监控数据的代理。了解基于Elastic Stack 5的各相关组件并掌握它们的基本使用方法和技巧，对于大数据搜索与挖掘及管理是很有必要的。 和第1版、第2版相比，本书力求反映基于Elastic Stack 5架构的*成果，内容新颖，强调实践。本书可为高等学校相关专业（如计算机科学与技术、软件工程、物联网、信息管理与信息系统、数据科学与大数据技术）学生的学习和科研工作提供帮助，同时对于从事大数据搜索与挖掘、日志分析、信息可视化、集群管理与性能监控的工程技术人员和希望了解网络信息检索技术的人员也具有较高的参考价值和工程应用价值。\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "a8ad2998-5ccf-4d32-b1c8-d4fe227a2122",
+			"name": "ES测试数据3",
+			"url": "192.168.218.128:9200/book/novel/3",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"author\":\" Arun Gupta\",\n\t\"title\":\"Java EE 7精粹\",\n\t\"word_count\":165000,\n\t\"publish_date\":\"2015-02-01\",\n\t\"desc\":\"Java EE 7是Java EE*版本的平台，它为建立Web应用和企业应用提供了简单、易用和全栈式的服务。 　　本书提供了Java EE 7平台中关键规范的概述。全书共16个章节，对Java EE 7平台中的每一个概念都给予了详细的解释，并通过一系列简单的代码示例来帮助读者更好地了解这个平台。作者Arun是Java EE团队的核心成员，也是Oracle的Java布道者，对Java EE 7平台的启动有重要贡献，是对Java EE 最有发言权的技术专家。 　　本书适合那些对Java有一些基本了解或者对Java EE 平台感兴趣的读者，阅读本书无需具备Java EE平台早期版本的知识。另外，对于了解设计模式的读者而言，通过本书描述的大部分技术还能实现实际应用的构建。 　　Java EE 7是Java EE最新版本的平台，它为建立Web应用和企业应用提供了简单、易用和全栈式的服务。\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ad94f78b-bd81-42ca-a39b-71bb9f6a5456",
+			"name": "ES测试数据8",
+			"url": "192.168.218.128:9200/book/novel/8",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"author\":\"朱林\",\n\t\"title\":\"Elasticsearch技术解析与实战\",\n\t\"word_count\":405000,\n\t\"publish_date\":\"2016-12-01\",\n\t\"desc\":\"Elasticsearch是一个强大的搜索引擎，提供了近实时的索引、搜索、分析功能。本书作者根据自己多年的开发经验，总结了使用和开发Elasticsearch的实战经验。本书全面介绍Elasticsearch系统结构与功能配置，以及实际应用案例，包括工具、方法、原则和佳实践。主要内容包括Elasticsearch基本概念与配置，索引的基本概念、管理与设置，架构设计中的字段、对象、映射，搜索中的结构、各种查询方式，聚合中的数字聚合、桶聚合、管道聚合，集群中的监控方式、配置案例，分析模块中的中文分词器、过滤器，高级设置中的关键点，监控与安全方面的技巧，ELK综合示例等。不管你是全文检索和Elasticsearch的初学者，还是Elasticsearch用户，你都能从书中获益。 Elasticsearch是一个强大的搜索引擎，提供了近实时的索引、搜索、分析功能。本书作者根据自己多年的发经验，总结了使用和发Elasticsearch的实战经验。本书全面介绍Elasticsearch系统结构与功能配置，以及实际应用案例，包括工具、方法、原则和佳实践。主要内容包括Elasticsearch基本概念与配置，索引的基本概念、管理与设置，架构设计中的字段、对象、映射，搜索中的结构、各种查询方式，聚合中的数字聚合、桶聚合、管道聚合，集群中的监控方式、配置案例，分析模块中的中文分词器、过滤器，高级设置中的关键，监控与安全方面的技巧，ELK综合示例等。不管你是全文检索和Elasticsearch的初学者，还是Elasticsearch用户，你都能从书中获益。\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "fa3ee6c3-abbe-4684-9674-1389479445e7",
+			"name": "ES测试数据1",
+			"url": "192.168.218.128:9200/book/novel/1",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "{\n\t\"author\":\"张皓宸\",\n\t\"title\":\"听你的\",\n\t\"word_count\":1000,\n\t\"publish_date\":\"2018-04-01\",\n\t\"desc\":\"张皓宸抛弃以往惯用的写作模式，大胆采用全书信体的方式，跨越性别年龄物种限制的角色扮演。从“我”出发，挖掘每个“你”心底*真实的情感。这本书就为了宠溺你的心，所以书名叫《听你的》。果麦出品\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}

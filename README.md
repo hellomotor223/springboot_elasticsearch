@@ -21,16 +21,25 @@
 linux说明
 
   账号密码 root Qq873759727
+  
           xiaobo ***
+          
   elasticsearch集群说明
+  
     master
+    
       目录 /usr/local/java/es_slave/elasticsearch-5.5.2
+      
     节点
+    
       目录  /user/local/java/es_slave/es_slave1
             /user/local/java/es_slave/es_slave2
     后台启动
+    
       进入目录
+      
       [xiaobo@localhost es_slave1]$ ./bin/elasticsearch -d
+    
     停用
       [xiaobo@localhost es_slave1]$ lsof -i:9200
       COMMAND  PID   USER   FD   TYPE DEVICE SIZE/OFF NODE NAME

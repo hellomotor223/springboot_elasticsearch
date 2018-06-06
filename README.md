@@ -6,8 +6,9 @@
 
 此版本默认要求服务器2G内存，可以到config下修改
 
-集群搭在linux上，镜像已上传至网盘：链接: https://pan.baidu.com/s/1jOjUnZFv2FMdcSG-UmZdYg 密码: 4ivi
-
+集群搭在linux上，镜像已上传至网盘：链接: https://pan.baidu.com/s/1TctmmChy7lSfXlyiL1vi6Q 密码: 1gyt
+【感谢好友支持下载，指出问题】
+【链接: https://pan.baidu.com/s/1jOjUnZFv2FMdcSG-UmZdYg 密码: 4ivi】【纯净镜像，想自己安装的可以下载此镜像】
 主要功能
 
     1.可向elasticsearch动态添加索引，默认已添加pinyin分词器与手机号邮箱分词（elasticsearch默认数字不分词）
